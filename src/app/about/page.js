@@ -12,12 +12,12 @@ const About = () => {
         <div className={styles.textContainer}>
           <h1 className={styles.aboutTitle}>About the Project</h1>
           <p className={styles.aboutText}>
-            This project, titled "Urbanization and Population Growth in Freetown: Challenges and Opportunities," 
+            This project, titled &quot;Urbanization and Population Growth in Freetown: Challenges and Opportunities,&quot;
             aims to explore how rapid urbanization is impacting the socio-economic and environmental landscape of Freetown.
           </p>
           <p className={styles.aboutText}>
             The study investigates key areas such as housing, infrastructure, economic development, and environmental sustainability. 
-            With the population increasing at an unprecedented rate, this research sheds light on the strains placed on the city's resources, the challenges posed by informal settlements, and the opportunities for future urban planning and development.
+            With the population increasing at an unprecedented rate, this research sheds light on the strains placed on the city&apos;s resources, the challenges posed by informal settlements, and the opportunities for future urban planning and development.
           </p>
           <p className={styles.aboutText}>
             By analyzing urbanization trends and their effects on Freetown, we aim to contribute valuable insights that can inform sustainable urban development strategies. 

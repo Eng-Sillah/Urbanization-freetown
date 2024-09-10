@@ -16,7 +16,7 @@ const Home = () => {
             of Freetown.
           </p>
         </div>
-      </header>
+      </header> 
 
       <section className={styles.intro}>
         <h2 className={styles.introTitle}>About This Project</h2>
