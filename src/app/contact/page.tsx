@@ -8,7 +8,7 @@ const Contact = () => {
       <section className={styles.contactSection}>
         <h1 className={styles.contactTitle}>Get in Touch</h1>
         <p className={styles.contactText}>
-          We'd love to hear from you! Whether you have questions about our work on urbanization and population growth in Freetown, or you want to collaborate with us, feel free to reach out using the form below.
+          We&apos;d love to hear from you! Whether you have questions about our work on urbanization and population growth in Freetown, or you want to collaborate with us, feel free to reach out using the form below.
         </p>
 
         <form className={styles.contactForm}>
