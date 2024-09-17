@@ -4,16 +4,17 @@
   margin: 0;
 }
 
-/* About section styling with animations */
-.aboutSection {
+/* About section styling */
+.aboutSection, .migrationSection, .sustainabilitySection {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
   gap: 2rem;
   animation: fadeIn 1.5s ease-in-out;
-  background-color: #cbd5e1;
+  background-color: #eef2f7; /* Light background */
   color: black;
+  margin-bottom: 2rem;
 }
 
 .textContainer {
@@ -23,7 +24,7 @@
   animation: slideInFromLeft 1.2s ease-in-out forwards;
 }
 
-.aboutTitle {
+.aboutTitle, .sectionTitle {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -83,17 +84,16 @@
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
-  .aboutSection {
+  .aboutSection, .migrationSection, .sustainabilitySection {
     flex-direction: column;
     text-align: center;
   }
 
-  .textContainer,
-  .imageContainer {
+  .textContainer, .imageContainer {
     max-width: 100%;
   }
 
-  .aboutTitle {
+  .aboutTitle, .sectionTitle {
     font-size: 1.8rem;
   }
 
@@ -111,8 +111,6 @@
 }
 
 /* Animations */
-
-/* Fade-in animation */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -122,7 +120,6 @@
   }
 }
 
-/* Slide-in from left animation */
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-50px);
@@ -134,7 +131,6 @@
   }
 }
 
-/* Slide-in from right animation */
 @keyframes slideInFromRight {
   0% {
     transform: translateX(50px);
