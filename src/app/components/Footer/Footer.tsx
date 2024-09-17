@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import styles from "./Footer.module.css";
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa"; // Importing social media icons
 

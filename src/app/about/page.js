@@ -15,11 +15,11 @@ const About = () => {
           <h1 className={styles.aboutTitle}>About the Project</h1>
           <p className={styles.aboutText}>
             This project, titled &quot;Urbanization and Population Growth in Freetown: Challenges and Opportunities,&quot;
-            explores how rapid urbanization is reshaping Freetown's socio-economic fabric and environmental landscape.
+            explores how rapid urbanization is reshaping Freetown&apos;s socio-economic fabric and environmental landscape.
           </p>
           <p className={styles.aboutText}>
             The study investigates key areas such as housing, infrastructure, economic development, and environmental sustainability. 
-            With an increasing population, this research sheds light on the pressures on the city's resources and offers solutions for future urban planning.
+            With an increasing population, this research sheds light on the pressures on the city&apos;s resources and offers solutions for future urban planning.
           </p>
         </div>
         <div className={styles.imageContainer}>
