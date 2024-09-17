@@ -64,7 +64,7 @@ const Home = () => {
             <Image src={growthImg} alt="Transportation" className={styles.issueImage} />
             <h3 className={styles.issueTitle}>Transportation Congestion</h3>
             <p className={styles.issueText}>
-              Traffic congestion has worsened as the city's infrastructure struggles to accommodate the growing population.
+              Traffic congestion has worsened as the city&apos;s infrastructure struggles to accommodate the growing population.
             </p>
           </div>
           <div className={styles.issueCard}>
